@@ -2,7 +2,7 @@
 
 Name:           maven-%{bname}
 Version:        2.4
-Release:        2.2%{?dist}
+Release:        3%{?dist}
 Epoch:          0
 Summary:        Tools to manage artifacts and deployment
 License:        ASL 2.0
@@ -124,6 +124,9 @@ Javadoc for %{name}.
 %doc LICENSE NOTICE DEPENDENCIES
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 02.4-3
+- Mass rebuild 2013-12-27
+
 * Mon Sep 23 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0:2.4-2.2
 - Add shaded alias for wagon-http
 
